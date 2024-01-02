@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ececec;
+}
+.Display {
+  display: grid;
+  column-gap: 80px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.Sorry {
+  margin: 8px 12px 8px;
+  padding: 30px 60px 30px;
+  background-color: #e1b382;
+}
+.List {
+  list-style: none;
+  margin: 5px 10px 5px;
+  padding: 10px 20px 10px;
+  background-color: #e1b382;
+}
+.ListItem {
+  background-color: #12343b;
+  color: white;
+  margin: 5px 2px 8px;
+  padding: 20px 40px 20px;
+  display: flex;
+}
+.contactDetails {
+  margin-right: auto;
+}
+.Buttons {
+  margin: 2px 3px;
+  cursor: pointer;
+  font-size: x-small;
+}
+.Form {
+  margin-top: 5px;
+  margin-left: auto;
+  background-color: #12343b;
+  border-radius: 10px;
+  height: 350px;
+}
+input {
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  margin: 10px 10px;
+}
+.add_form_header {
+  text-align: center;
+  border-bottom: none;
+  background-color: #e1b382;
+  padding: 10px;
+  border-radius: 10px;
+}
